@@ -16,12 +16,26 @@ convertButton.addEventListener("click", function(){
     let baseValue = inputBox.value 
 
     //math to convert to length
-    lengthResult.textContent = `${baseValue} meters = ${parseFloat(baseValue * meterToFeet).toFixed(3)} feet`
+    lengthResult.textContent = `
+    ${baseValue} Meters = ${parseFloat(baseValue * meterToFeet).toFixed(3)} Feet /
+    ${baseValue} Feet = ${parseFloat(baseValue * feetToMeter).toFixed(3)} Meters
+    `;
+    //math to convert to volume
+    volumeResult.textContent = `
+    ${baseValue} Liters = ${parseFloat(baseValue * literToGallon).toFixed(3)} Gallons /
+    ${baseValue} Gallons = ${parseFloat(baseValue * gallonToLiter).toFixed(3)} Liters
+    `;
+
+    //math to convert to mass
+    massResult.textContent = `
+    ${baseValue} Kilo = ${parseFloat(baseValue * kiloToPound).toFixed(3)} Pounds /
+    ${baseValue} Pounds = ${parseFloat(baseValue * poundToKilo).toFixed(3)} Kilos
+    `;
     console.log("clicked chimp")
 });
 
-//math to convert to volume
-//math to convert to mass
+
+
 
 
 
