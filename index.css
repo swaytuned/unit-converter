@@ -50,7 +50,7 @@ input{
     padding: 10px;
     color: #FFFFFF;
     background: #08545a;
-    border: 2px solid #246a70;
+    border: 2px solid #65b8b1;
     border-radius: 5px;
     font-family: 'Inter';
     font-style: normal;
@@ -86,7 +86,7 @@ h1{
     text-align: center;
 }
 h3{
-    color: #246a70;
+    color: #6bf3ff;
     margin: 0px;
     font-family: 'Inter';
     font-style: normal;
