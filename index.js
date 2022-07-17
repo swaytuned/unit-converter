@@ -31,7 +31,7 @@ convertButton.addEventListener("click", function(){
     ${baseValue} Kilo = ${parseFloat(baseValue * kiloToPound).toFixed(3)} Pounds /
     ${baseValue} Pounds = ${parseFloat(baseValue * poundToKilo).toFixed(3)} Kilos
     `;
-    console.log("clicked chimp")
+    console.log("QA check, I see you checked my code")
 });
 
 
