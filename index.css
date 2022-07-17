@@ -10,7 +10,7 @@ body {
 }
 
 .top{
-    background: #6943FF;
+    background: #08545a;
     width: 550px;
     height: 285px;
     margin: 0 auto;
@@ -32,6 +32,12 @@ button{
     border: 0px;
     padding: 0px;
     margin: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
 }
 
 input{
@@ -43,8 +49,8 @@ input{
     top: 101px;
     padding: 10px;
     color: #FFFFFF;
-    background: #6943FF;
-    border: 2px solid #B295FF;
+    background: #08545a;
+    border: 2px solid #246a70;
     border-radius: 5px;
     font-family: 'Inter';
     font-style: normal;
@@ -80,7 +86,7 @@ h1{
     text-align: center;
 }
 h3{
-    color: #CCC1FF;
+    color: #246a70;
     margin: 0px;
     font-family: 'Inter';
     font-style: normal;
@@ -109,6 +115,7 @@ h3{
     border-radius: 4.68077px 0px 0px 0px;
     border: 1px none #273549;
     width: 500px;
+    max-height: fit-content;
     left: 25px;
     margin:0 auto;
     box-sizing: border-box;
